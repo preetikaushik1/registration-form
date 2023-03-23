@@ -1,0 +1,184 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Cinzel&family=DM+Sans:ital,wght@0,500;1,400;1,500&family=Dancing+Script:wght@400;700&family=Hind+Madurai:wght@300;400;500;600;700&family=Josefin+Sans&family=Jost:ital,wght@0,300;0,400;0,500;0,600;0,700;0,900;1,200;1,300&family=Kanit:wght@300&family=League+Spartan:wght@200;300;400;500;600;700;800;900&family=Libre+Baskerville:ital@1&family=Merienda&family=Mukta:wght@200;300;400;500;600;700;800&family=Nanum+Gothic:wght@800&family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,200;1,300;1,400;1,500;1,600;1,700&family=Parisienne&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+  box-sizing: border-box;
+
+}
+body{
+    background-color:  rgb(121, 121, 122);
+    font-family: "railway", sans-serif;
+}
+.container{
+    width: 800px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+.inner-container{
+    width: 100%;
+    float: left;
+}
+.left-box{
+    width: 50%;
+    
+    height: 430px;
+    float: left;
+    background-color: rgb(49, 49, 79);
+    padding: 55px 20px;
+    text-align: center;
+    padding-bottom: 70px;
+}
+.right-box{
+    width: 50%;
+    height: 430px;
+    float: left;
+    background-color: white;
+    padding: 55px 20px;
+    text-align: center;
+}
+.analytics{
+    font-weight:700;
+    color: white;
+
+}
+.free{
+    margin-top: 20px;
+    color: white;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.5;
+}
+.host{
+    font-weight: bold;
+    color: white;
+    margin-top: 30px;
+}
+.img-box{
+   
+    width: 70px;
+    height: 70px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+.img{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    margin-left: -2px;
+    border: 1px solid gray;
+
+}
+.ceo{
+    margin-top: 10px;
+    color: white;
+    font-size: 13px;
+    font-weight: 600;
+}
+.smith{
+    margin-top: 20px;
+    color: white;
+    font-size: 13px;
+    font-weight: 600;
+}
+.enter-text{
+    color: grey;
+    font-size: 12px;
+    font-weight: 500;
+    margin-top: 15px;
+}
+.first{
+    margin-top: 20px;
+    padding: 7px 4px;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+.first1{
+    width: 350px;
+    padding: 6.5px 8px;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+.first2{
+    width: 350px;
+    padding: 7px 8px;
+    border-radius: 5px;
+    border: 1px solid  rgb(44, 44, 249) ;
+    background-color: rgb(44, 44, 249);
+    color: white;
+    font-weight: 600;
+}
+.second-condition{
+    color: red;
+    font-weight: 600;
+    font-size: 12px;
+}
+.first-condition{
+    color:green;
+    font-weight: 600;
+    font-size: 12px;
+}
+
+
+
+@media screen and (min-width:768px) and (max-width:1000px) {
+    .container{
+         width:100%;
+
+    }
+    .left-box{
+        width: 45%;
+        margin-left: 5%;
+    }
+    .right-box{
+        width: 45%;
+        margin-right: 5%;
+        padding: 29px 25px;
+    }
+    .first1{
+        width: 290px;
+    }
+    .first2{
+        width: 290px;
+    }
+    .first{
+        width: 290px;
+    }
+
+
+
+}
+
+
+
+
+@media screen and (min-width:320px) and (max-width:767px) {
+    .container{
+        width: 100%;
+        float: left;
+        margin-top: 0;
+    }
+    .left-box{
+        width: 100%;
+        margin-left: 0;
+        padding: 55px 0px;
+        
+    }
+    .right-box{
+        width: 100%;
+        padding: 55px 0px;
+        float: left;
+
+    }
+    .first1{
+        width: 330px;
+        padding: 7px 4px;
+    }
+    .first2{
+        width: 330px;
+    }
+    .first{
+        width: 330px;
+    }
+
+}
