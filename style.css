@@ -11,7 +11,7 @@ body{
     font-family: "railway", sans-serif;
 }
 .container{
-    width: 800px;
+    width: 1200px;
     margin: 0 auto;
     margin-top: 30px;
 }
@@ -21,7 +21,6 @@ body{
 }
 .left-box{
     width: 50%;
-    
     height: 430px;
     float: left;
     background-color: rgb(49, 49, 79);
@@ -45,7 +44,7 @@ body{
 .free{
     margin-top: 20px;
     color: white;
-    font-size: 14px;
+    font-size: 15px;
     font-weight: 500;
     line-height: 1.5;
 }
@@ -56,14 +55,14 @@ body{
 }
 .img-box{
    
-    width: 70px;
-    height: 70px;
+    width: 75px;
+    height: 75px;
     margin: 0 auto;
     margin-top: 20px;
 }
 .img{
-    width: 70px;
-    height: 70px;
+    width: 75px;
+    height: 75px;
     border-radius: 50%;
     margin-left: -2px;
     border: 1px solid gray;
@@ -72,18 +71,18 @@ body{
 .ceo{
     margin-top: 10px;
     color: white;
-    font-size: 13px;
+    font-size: 14px;
     font-weight: 600;
 }
 .smith{
     margin-top: 20px;
     color: white;
-    font-size: 13px;
+    font-size: 14px;
     font-weight: 600;
 }
 .enter-text{
     color: grey;
-    font-size: 12px;
+    font-size: 13px;
     font-weight: 500;
     margin-top: 15px;
 }
@@ -121,18 +120,18 @@ body{
 
 
 
-@media screen and (min-width:768px) and (max-width:1000px) {
+@media screen and (min-width:768px) and (max-width:1200px) {
     .container{
          width:100%;
 
     }
     .left-box{
-        width: 45%;
-        margin-left: 5%;
+        width: 48%;
+        margin-left: 2%;
     }
     .right-box{
-        width: 45%;
-        margin-right: 5%;
+        width: 48%;
+        margin-right: 2%;
         padding: 29px 25px;
     }
     .first1{
@@ -171,14 +170,15 @@ body{
 
     }
     .first1{
-        width: 330px;
+        width: 300px;
         padding: 7px 4px;
     }
     .first2{
-        width: 330px;
+        width: 300px;
     }
     .first{
-        width: 330px;
+        width: 146px;
+
     }
 
 }

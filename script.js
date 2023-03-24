@@ -6,14 +6,19 @@ function registerform(){
      let firstname_size = first_name.length
 
      let last_name = document.querySelector('.lastname').value
-     let lastname_size = first_name.length
+     let lastname_size = last_name.length
 
 
      let phone = document.querySelector('.phone').value
      let phone_size = phone.length
 
-     let mail = document.querySelector('.email').value
-     let mail_size = mail.length
+     let emailId = document.querySelector('.email').value
+     let emailFormat = /^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$/
+     console.log(emailId)
+
+
+   
+
 
      let password = document.querySelector('.password').value
      let password_size = password.length
@@ -34,12 +39,12 @@ function registerform(){
 
         document.querySelector('.second-condition').innerText = 'Phone number should be 10 digit'
 
-     }else if (mail_size < 4){
-        document.querySelector('.first-condition').innerText = ""
+      }else if(!emailId.match(emailFormat)){
+         document.querySelector('.first-condition').innerText = ""
 
-        document.querySelector('.second-condition').innerText = 'Please write your correct mail'
+        document.querySelector('.second-condition').innerText = 'Please write your correct email'
 
-     }else if (password_size < 0){
+     }else if (password_size <3){
         document.querySelector('.first-condition').innerText = ""
 
         document.querySelector('.second-condition').innerText = 'Please write your valid password'
